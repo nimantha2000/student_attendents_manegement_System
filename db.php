@@ -2,7 +2,7 @@
     $host = "localhost";
 	$user = "root";
 	$pass = "";
-	$db = "samsDB";
+	$db = "samsDBtest";
 
 	$conn = mysqli_connect($host,$user,$pass);
 

@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug PHP with XAMPP",
+            "type": "php",
+            "request": "launch",
+            "program": "${workspaceFolder}/D:/xamp/htdocs/Modify/home.html", // Update this path
+            "runtimeExecutable": "D:/xamp/php/php.exe", // Path to your PHP executable in XAMPP
+            "runtimeArgs": [],
+            "port": 9000,
+            "pathMappings": {
+                "/path/to/your/project": "${workspaceFolder}",
+                "/path/to/xampp/htdocs": "D:/xamp/htdocs" // Path to your XAMPP htdocs directory
+            },
+            "ignore": [
+                "**/vendor/**/*.php" // Update this to ignore vendor files if needed
+            ]
+        }
+    ]
+}

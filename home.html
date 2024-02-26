@@ -1,40 +1,19 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Student manegement system</title>  
+	<title>Student manegement system</title>
 	<style>
-	
-	body {
-            background-image: url("img/i2.jpg");
-			background-repeat: no-repeat;
-			background-attachment: fixed;
-			background-size: cover;
-			height:100%;
-         }
+
 	h1 {
-		font-size: 5em; 
+		font-size: 5em;
 		color:white;
 		-webkit-text-stroke: 1px red;
 	}
 	h2 {
-		font-size: 3.5em; 
+		font-size: 2.5em;
 		color:Navy;
 		-webkit-text-stroke: 1px white;
 	}
-	
-
-	.column {
-	  float: left;
-	  width: 33%;
-	  padding: 0px;
-	}
-
-	/* Clearfix (clear floats) */
-	.row::after {
-	  content: "";
-	  clear: both;
-	  display: table;
-	}
-	
 </style>
 	<script type="text/javascript">
         function playCancel(){
@@ -55,6 +34,7 @@
     </script>
 	<link rel="stylesheet" href="style.css">
 </head>
+
 <body class = "home">
 	<audio id="click">
         <source src="select.wav" type="audio/wav">
@@ -66,25 +46,38 @@
         <source src="cancel.wav" type="audio/wav">
     </audio>
 
-	
-	<h1><center>SLTC <br>STUDENT ATTENDENCE MANEGEMENT SYSTEM</center></h1>
-	
-	
+	<header>
+		<h1><center>SLTC <br>STUDENT ATTENDENCE MANEGEMENT SYSTEM</center></h1>
+	</header>
+
+	<div class="topnav">
+				  <a class="active" href="#home">Home</a>
+					<a href="https://lms.sltc.ac.lk/">LMS</a>
+					<a href="https://sltc.ac.lk/">Web Site</a>
+					<a href="https://sltc.ac.lk/staff-and-students/library">Library</a>
+				  <a href="https://sltc.ac.lk/who-we-are/our-vision">About</a>
+				  <a href="https://sltc.ac.lk/contact">Contact</a>
+
+	</div>
+	<br>
 	<h2><center>Select Your Roll</center</h2>
-	
+
 	<br><br>
 	<div class="row">
 		<div class="column">
-			<a href="loginAdmin.html"> <img src=img/2.jpeg alt="As a Admin"  height='300'   width='300'></a>
+			<a href="loginAdmin.html"> <img src=img/2.jpeg alt="As a Admin"  height='280'   width='280'></a>
 		</div>
 		<div class="column">
-			<a href="loginLecturer.html"> <img src=img/3.jpeg alt="As a Lecturer"  height='300'   width='300'></a>
-		</div>	
-		<div class="column">	
-			<a href="loginStudent.html"> <img src=img/4.jpeg alt="As a Student"  height='300'   width='300'></a>
+			<a href="loginLecturer.html"> <img src=img/3.jpeg alt="As a Lecturer"  height='280'   width='280'></a>
+		</div>
+		<div class="column">
+			<a href="loginStudent.html"> <img src=img/4.jpeg alt="As a Student"  height='280'   width='280'></a>
 		</div>
 	</div>
-	
-	
+<br>
+<footer>
+		<img src=img/logo3.png alt="Logo"  height='65'   width='300'><br>
+		<b>© Copyright 2021 CyperTeam | All rights reserved</b>
+</footer>
 </body>
 </html>

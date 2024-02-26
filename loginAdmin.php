@@ -6,6 +6,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 $_SESSION["id"] = $_POST["id"];
 
+
 include"loginAdmin.html";
 
 require('db.php');

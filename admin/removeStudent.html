@@ -1,36 +1,28 @@
 <html>
 <head>
 	<title>
-		ADD ADMINISTRATOR TO DATABASE
+		Remove Student
 	</title>
 	<link rel="stylesheet" href="../style.css">
 </head>
 <body class="adminDashboard">
-	<header>
-	<div class="heading small"><center>ADD NEW ADMINISTRATOR<center></div>
-	</header><br><br>
-	<form name="addAdministrator" action="addAdministrator.php" method="POST">
+	<div class="heading small"><center>REMOVE STUDENT<center></div>
+
+  <br><hr><hr><br><br><br>
+	<form name="removeStudent" action="removeStudent.php" method="POST">
 		<table style="margin-left: auto; margin-right: auto;"  width="95%" border="0px">
 			<tr>
 				<td width="20%">
-					<label class="inputLabel" for="id">EMPLOYEE ID</label>
+					<label class="inputLabel" for="id">STUDENT ID</label>
 				</td>
 				<td>
-					<input class="loginInput" type="numer" name="id" id="id"><br><br>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<label class="inputLabel" for="name">NAME</label>
-				</td>
-				<td>
-					<input class="loginInput" type="text" name="name" id="name"><br><br>
+					<input class="loginInput" type="text" name="id" id="id"><br><br>
 				</td>
 			</tr>
 
 			<tr>
 				<td align="center">
-					<input style="width: 150px;" class="loginButton" type="submit" value="ADD ADMIN">
+					<input style="width: 150px;" class="loginButton" type="submit" value="Remove">
 				</td align="center">
 				<td align="center">
 					<input style="width: 150px;" class="loginButton" type="reset" value="Reset">
@@ -46,4 +38,5 @@
 			<b>© Copyright 2021 CyperTeam | All rights reserved</b>
 	</footer>
 </body>
+
 </html>
