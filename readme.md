@@ -1,18 +1,17 @@
 # Student Attendance Management System
 
 ## Overview
-This project is a Student Attendance Management System designed to facilitate attendance tracking for students and lectures. It allows three types of users: admin, student, and lecturer, each with their respective roles and permissions.
+This project is a Student Attendance Management System designed to facilitate attendance tracking for students. It allows three types of users: admin, student, and lecturer, each with their respective roles and permissions.
 
 ## Features
-- **Admin Dashboard**: Provides functionalities for managing students, lecturers, courses, and attendance records.
-- **Student Portal**: Allows students to view their attendance records and course details.
-- **Lecturer Portal**: Enables lecturers to mark attendance, view student lists, and manage courses.
+- **Admin Dashboard**: Provides functionalities for managing students, lecturers, courses and generating reports.
+- **Student Portal**: Allows students to view their attendance, percentage of attendance, and course details.
+- **Lecturer Portal**: Enables lecturers to create attendance forms, mark attendance, and get course details.
 
 ## Technologies Used
 - **PHP**: Backend scripting language for server-side logic.
 - **MySQL**: Relational database management system for storing data.
 - **HTML/CSS/JavaScript**: Frontend technologies for user interface and interactivity.
-- **Bootstrap**: CSS framework for responsive design and layout.
 - **jQuery**: JavaScript library for simplifying client-side scripting.
 
 ## Installation
@@ -45,11 +44,9 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Credits
-- [Your Name](https://github.com/yourusername) - Lead Developer
-- [Contributor Name](https://github.com/contributor) - Contributor
+- [Nimantha Kasun](https://github.com/nimantha2000) - Lead Developer
 
 ## Acknowledgments
-- [Bootstrap](https://getbootstrap.com/) - CSS framework
 - [jQuery](https://jquery.com/) - JavaScript library
 
 
