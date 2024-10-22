@@ -29,12 +29,15 @@ This project is a Student Attendance Management System designed to facilitate at
 ## Screenshots
 ![Home Page](Screenshotts/home.png)
 <br>
+<br>
 ![Admin Dashboard](Screenshotts/admin.png)
+<br>
 <br>
 ![Student Portal](Screenshotts/student.png)
 <br>
+<br>
 ![lecture Portal](Screenshotts/lecture.png)
-
+<br>
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 1. Fork the repository.
