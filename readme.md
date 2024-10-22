@@ -27,9 +27,13 @@ This project is a Student Attendance Management System designed to facilitate at
 - **Lecturer**: Log in with lecturer credentials to mark attendance, view student lists, and manage courses.
 
 ## Screenshots
-![Admin Dashboard](screenshotts/admin.png)
-![Student Portal](screenshots/student.png)
-![Lecturer Portal](screenshots/lecture.png)
+![Home Page](Screenshotts/home.png)
+<br>
+![Admin Dashboard](Screenshotts/admin.png)
+<br>
+![Student Portal](Screenshotts/student.png)
+<br>
+![lecture Portal](Screenshotts/lecture.png)
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
